@@ -16,7 +16,14 @@ _Programming the Mozmo_
 
 The output of the mozmo is fairly low, I usually to boost it with channel 2 or 3 of the MakeNoise maths.
 
-###### A Word of Caution
+
+### Troubleshooting
+
+_I just get a bunch of noise_
+
+It is possible you have not enabled HI-FI mode in your MozziGuts.h file
+
+### A Word of Caution
 There are blocking diodes on the inputs of the _Mozmo_, but I would excercise caution in what signals you feed it. (Avoid negative polarity and voltages over 5v when possible).
 
 As Mozmo can be built as a DIY project there are a variety of ways you could screw it up. This program functions safely in my system with my Mozmo that I built myself, and if you built yours right it should function right in your system as well. That said I am not liable for any damage caused to your system through running this sketch. If your Mozmo works with other sketches, then it will work with this.
