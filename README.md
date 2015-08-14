@@ -5,13 +5,14 @@ Samples must be converted to tables and loaded manually alongside the program. I
 
 ### Usage
 
-(Pre work)
-1. Download the Arduino software, and Mozzi library
-2. Edit your Mozzi settings to use HI-FI audio, this is found in the MozziGuts.h file in the library
+_Installing Arduino and Mozzi_
+> - Download the Arduino software, and Mozzi library
+> - Edit your Mozzi settings to use HI-FI audio, this is found in the MozziGuts.h file in the library
 
-1. Switch on your system, with no jacks connected to the _Mozmo_, upload this sketch as you would any arduino sketch
-2. Patch Audio out of `"Audio"` jack
-3. Patch CV Signal into `A2` jack
+_Programming the Mozmo_
+> - Switch on your system, and with no jacks connected to the _Mozmo_, upload this sketch
+> - Patch Audio out of `"Audio"` jack
+> - Patch CV Signal into `A2` jack
 
 The output of the mozmo is fairly low, I usually to boost it with channel 2 or 3 of the MakeNoise maths.
 
