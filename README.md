@@ -1,7 +1,7 @@
 # MozmoSampleBlaster
 
 _SampleBlaster_ is a dead simple hardware sample scrubber made for the _Mozmo_ Eurorack module allowing a user to scrub and play a sample with a 0-5v cv signal. 
-Samples must be converted to tables and loaded manually alongside the program. I will be developing an application for converting samples.
+Samples must be converted to tables and loaded manually alongside the program. I wrote a [Downsampler](https://github.com/isaacgoodfellow/ArduinoWavetableDownsampler) just for this.
 
 ### Usage
 
